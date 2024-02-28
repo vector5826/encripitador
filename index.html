@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Criptografia de Mensagens</title>
+</head>
+<body>
+    <header>
+        <nav class="logo">
+            <a href="https://alura.com.br" target="_blank" rel=""><img src="img/Frame A (1).png" alt=""></a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <textarea id="message" rows="4" cols="50" placeholder="Digite a mensagem"></textarea>
+            <button class="botao" onclick="encryptMessage()">Criptografar</button>
+            <button class="botao" onclick="decryptMessage()">Descriptografar</button>
+            <div id="result"></div>
+            <button onclick="copyToClipboard()">Copiar</button>
+        <script src="script.js"></script>
+    </main>
+
+    <footer>
+        <p>
+            &copy;2024 Site criado por <a href="https://github.com/vector5826" target="_blank">Victor hugo</a> para o Challenger da ONE, meu <a href="https://www.linkedin.com/in/victor-hugo5822/" target="_blank">linkedin</a>
+        </p>
+    </footer>
+</body>
+</html>
