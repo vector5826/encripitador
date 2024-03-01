@@ -13,12 +13,13 @@ body {
     
 }
 .container {
-    max-width: 100vh;
+    max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 #message {
@@ -34,9 +35,24 @@ label {
 }
 
 textarea {
-    width: 100%;
+    display: block;
+    margin: 10px auto;
     padding: 10px;
-    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    color: rgba(10, 56, 113, 1);
+}
+
+button{
+    display: inline-block;
+    width: Fixed (336px);
+    height: Hug (67px);
+    top: 885px;
+    left: 1032px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+
 }
 
 #result {
@@ -44,6 +60,7 @@ textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    color: rgba(73, 80, 87, 1);
 }
 
 footer {
@@ -67,4 +84,16 @@ footer a {
 footer a:hover{
     text-decoration: underline;
     color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 20px auto;
+        padding: 10px;
+    }
+    
+    button {
+        display: block;
+        margin: 10px auto;
+    }
 }
