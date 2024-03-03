@@ -15,20 +15,22 @@
     </header>
     <main>
         <section>
-            <textarea id="message" rows="4" cols="50" placeholder="Digite a mensagem"></textarea>
+            <textarea class="text" id="message" rows="4" cols="50" placeholder="Digite a mensagem"></textarea>
             <div class="form-gruop">
                 <img src="img/Vector.png" class="alerta">
                 <label for="">Apenas letras minusculas e sem acento</label>
             </div>
-            <div>
+            <div class="botoes-div">
                 <button class="btn-cript" onclick="encryptMessage()">Criptografar</button>
                 <button class="btn-descri" onclick="decryptMessage()">Descriptografar</button>
             </div>
         </section>
         
         <section>
-            <textarea class="area-texto" id="result"></textarea>
-            <button class="btn-copia" onclick="copyToClipboard()">Copiar</button>
+            <div id="div-aparece">
+                <textarea class="area-texto" id="result"></textarea>
+                <button class="btn-copia" onclick="copyToClipboard()">Copiar</button>
+            </div>
         </section>
         
     </main>
