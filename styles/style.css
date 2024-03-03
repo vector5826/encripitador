@@ -8,18 +8,15 @@ body {
     background-color:rgba(243, 245, 252, 1);
     ;
 }
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
 .logo{
     margin: 40px 40px;
     
-}
-.container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
 #message {
@@ -27,11 +24,20 @@ body {
     font-family: "Inter", sans-serif;
     font-size: 32px;
     line-height: 48px;
+    width: 680px;
+    height: 288px;
+    top: 168px;
+    left: 240px;
+
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.form-group {
+    display: flex;
+    width: 252px;
+    height: 18px;
+    top: 851px;
+    left: 240px;
+    gap: 8px;
 }
 
 textarea {
@@ -44,8 +50,8 @@ textarea {
 
 button{
     display: inline-block;
-    width: Fixed (336px);
-    height: Hug (67px);
+    width: 288px;
+    height: 19px;
     top: 885px;
     left: 1032px;
     padding: 24px;
@@ -55,12 +61,47 @@ button{
 
 }
 
+.btn-cript{
+    background-color: rgba(10, 56, 113, 1);
+    color:rgba(255, 255, 255, 1);
+}
+
+.btn-descri{
+   color:rgba(10, 56, 113, 1);
+   border: 1px solid rgba(10, 56, 113, 1);
+}
+
+.btn-copia{
+    color:rgba(10, 56, 113, 1);
+    width: 288px;
+    height: 19px;
+    text-align: center;
+    border: 1px solid rgba(10, 56, 113, 1)
+}
+
+button:hover{
+    background: rgba(216, 223, 232, 1);
+    
+}
+
 #result {
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     color: rgba(73, 80, 87, 1);
+    width: 336px;
+    height: 781px;
+    top: 72px;
+    left: 1032px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
 }
 
 footer {

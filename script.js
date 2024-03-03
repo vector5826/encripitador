@@ -47,5 +47,4 @@ function copyToClipboard() {
     document.execCommand("copy");
     document.body.removeChild(textarea);
 
-    alert("Texto copiado para a área de transferência!");
 }

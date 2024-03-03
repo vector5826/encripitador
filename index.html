@@ -14,13 +14,23 @@
         </nav>
     </header>
     <main>
-        <div class="container">
+        <section>
             <textarea id="message" rows="4" cols="50" placeholder="Digite a mensagem"></textarea>
-            <button class="botao" onclick="encryptMessage()">Criptografar</button>
-            <button class="botao" onclick="decryptMessage()">Descriptografar</button>
-            <div id="result"></div>
-            <button onclick="copyToClipboard()">Copiar</button>
-        <script src="script.js"></script>
+            <div class="form-gruop">
+                <img src="img/Vector.png" class="alerta">
+                <label for="">Apenas letras minusculas e sem acento</label>
+            </div>
+            <div>
+                <button class="btn-cript" onclick="encryptMessage()">Criptografar</button>
+                <button class="btn-descri" onclick="decryptMessage()">Descriptografar</button>
+            </div>
+        </section>
+        
+        <section>
+            <textarea id="result"></textarea>
+            <button class="btn-copia" onclick="copyToClipboard()">Copiar</button>
+        </section>
+        
     </main>
 
     <footer>
@@ -28,5 +38,6 @@
             &copy;2024 Site criado por <a href="https://github.com/vector5826" target="_blank">Victor hugo</a> para o Challenger da ONE, meu <a href="https://www.linkedin.com/in/victor-hugo5822/" target="_blank">linkedin</a>
         </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
