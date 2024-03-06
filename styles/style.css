@@ -110,10 +110,6 @@ button {
   background: rgba(216, 223, 232, 1);
 }
 
-.btn-copia:hover {
-  background: rgba(216, 223, 232, 1);
-}
-
 .btn-cript:hover {
   background-color: rgba(10, 56, 113, 0.877);
 }
